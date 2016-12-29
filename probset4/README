@@ -1,0 +1,56 @@
+############################################################################
+#    (c) Copyright 1999 - 2001 M.I.T.  Permission is hereby granted,       #
+#    without written agreement or royalty fee, to use, copy, modify, and   #
+#    distribute this software and its documentation for any purpose,       #
+#    provided that the above copyright notice and the following three      #
+#    paragraphs appear in all copies of this software.                     #
+#                                                                          #
+#    IN NO EVENT SHALL M.I.T. BE LIABLE TO ANY PARTY FOR DIRECT,           #
+#    INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES ARISING OUT   #
+#    OF THE USE OF THIS SOFTWARE AND ITS DOCUMENTATION, EVEN IF            #
+#    M.I.T. HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.            #
+#                                                                          #
+#    M.I.T. SPECIFICALLY DISCLAIMS ANY WARRANTIES INCLUDING, BUT NOT       #
+#    LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A  # 
+#    PARTICULAR PURPOSE, AND NON-INFRINGEMENT.                             #
+#                                                                          #
+#    THE SOFTWARE IS PROVIDED ON AN "AS IS" BASIS AND M.I.T. HAS NO        #
+#    OBLIGATION TO PROVIDE MAINTENANCE, SUPPORT, UPDATES, ENHANCEMENTS,    #
+#    OR MODIFICATIONS.                                                     #
+############################################################################
+
+Thank you for downloading the SpeechBuilder starter pack! The archive
+that you have downloaded should include four files:
+
+README			This file
+flights.xml		XML definition of flights domain
+flights.cgi		CGI back-end for flights domain (in PERL)
+SpeechBuilder.pm	SpeechBuilder support library
+
+Here is a step-by step procedure to get your first SpeechBuilder
+domain up and running:
+
+1. Copy the flights.cgi script to a directory on your web server that
+   is configured to run CGI scripts. Test it out with a web browser.
+2. Look at the flights.xml file and edit the URL to point to wherever
+   your back-end script from step 1 is accessible.
+3. Go to the SpeechBuilder page at
+   http://speech.lcs.mit.edu/SpeechBuilder/SpeechBuilder.cgi .
+4. When prompted for User Name and Password, click "Cancel".
+5. You will be taken to the login denied page. Click on the "click
+   here to register" link.
+6. Enter your information and click on Register to set up your
+   account.
+7. Click on the "click here" link to go to the sytem.
+8. Enter your login information and click "ok".
+9. Type "flights" in the "Pick a domain name" window and click
+   "create".
+10.You will be taken to the main SpeechBuilder editing page. Scroll
+   down to the bottom to see the XML uploading tool. Click "Browse"
+   and find the "flights.xml" file on your hard drive. Click "Open"
+   and click on "Upload XML" in the browser.
+11.Click on the "Refresh" button once your XML file is uploaded.
+12.You will be at the domain editing screen. Click "Build" at the
+   bottom of the page to build your application.
+13.Click "Start" to get your domain running.
+14.You should be all set! Call your domain and talk to it!

@@ -1,0 +1,7 @@
+Match score: 7
+Match length: 7
+Position in query: 13
+Position in database: 442
+GCATGGG
+|||||||
+GCATGGG

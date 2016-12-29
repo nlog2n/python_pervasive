@@ -1,0 +1,8 @@
+#!/bin/bash
+
+if (( $# < 1 )) ; then
+    echo "usage: edit_floor floor"
+    exit 1
+fi
+
+python edit_paths.py ../maps/$1.png ../graphs/$1.graph

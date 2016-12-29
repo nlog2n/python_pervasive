@@ -1,0 +1,93 @@
+
+6.894 PSET 2
+
+Fang Hui 2004.9.30
+g0404400@nus.edu.sg
+
+1.FILES
+
+* graph_server.py   :  Server program
+   Usage:   python graph_server.py <port>
+   e.g.:   
+        python graph_server.py  3333
+      or:
+        ./graph_server.py 3333
+* graph_client.py   :  Client program
+   Usage:  python graph_client.py <server_addr> <port> <mapfile>
+   e.g.:
+        python graph_client.py soccf-smasrv01.ddns.comp.nus.edu.sg 3333 map
+   
+* map               :  map file
+   text format: the edge is a string with 2 upcase characters; all edges are
+   splitted by coma and put together by parentheses.
+   e.g.: (AB,AC,BF,BG,CD,DI,DE,IJ,HI,CG,GH,FH,HJ,JK)
+
+
+2. RUN EXAMPLES
+
+*********Server side:**********************
+
+g0404400@sf3:~/python[553]$ ./graph_server.py 3333
+waiting for new connection on port 3333
+accepted connection from 172.18.182.113:1031
+
+ACDIJK
+
+connection with 172.18.182.113 closed.
+
+
+***********Client(iPAQ) side:***************
+~/python # ./graph_client.py sunfire.comp.nus.edu.sg 3333 map
+Map is:(AB,AC,BF,BG,CD,DI,DE,IJ,HI,CG,GH,FH,HJ,JK)
+
+Start point is:A , and end point is:K
+Find the path: ['A', 'C', 'D', 'I', 'J', 'K']
+Connected and sending...
+Completed!
+
+
+3. PROGRAM DESCRIPTION
+
+graph_server.py pyeudo code:
+
+- create the server socket
+- bind the socket to port indicated by user input
+- listen on the port
+- for ever {
+-    accept one incoming connection
+-    while true
+-      receive data from this client 
+-      if reach the end of dat ,then break out (close)
+-      print out the data
+-    waiting for next
+- }
+
+
+graph_client.py pseudo code;
+
+- read from the map file and construct a graph structure
+- sort the vertex by alphabetic order and find out the starting point and
+  ending point.
+- call function find_path() to find out the shortest path between them
+- make socket connection to server and send the answer to it.  
+
+function : find_path
+input    : graph, start-point, end-point
+return   : the shortest path between them
+description:
+
+To be general , I store both non-directional and directional graphs as
+directional graphs,where graph is a dictionary, each element name is
+vertex, and its value is a list of all vertexes connected to itself.
+
+I divide all points into two parts: one is already in the shortest-path
+set,i.e. "in path". if "not in path",it shows not yet merged in.
+
+At first the path set was initiated. the end point and the points connected
+directly to itself were put in set.
+Secondly I find out one from all the points not in path set each time. this point
+must have the shortest path to the set when compared with others. Then I insert
+this point to the path set(the path to end also recorded).
+
+If there's none point not in path set, the iteration closed.
+

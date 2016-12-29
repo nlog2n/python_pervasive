@@ -1,0 +1,190 @@
+<opt domain="house" speechbuilder="3.2" version="1.0">
+  <class name="digit" type="Key">
+    <entry>two{2}</entry>
+    <entry>three{3}</entry>
+    <entry>four{4}</entry>
+    <entry>five{5}</entry>
+    <entry>six{6}</entry>
+    <entry>seven{7}</entry>
+    <entry>eight{8}</entry>
+    <entry>nine{9}</entry>
+  </class>
+  <class name="status" type="Action">
+    <entry>I am [at] Larry's office</entry>
+    <entry>I am Larry</entry>
+    <entry>I am G source=={eight fifty five}</entry>
+    <entry>I am at G source=={eight fifty five}</entry>
+    <entry>I'm at G source=={eight fifty five}</entry>
+  </class>
+  <class name="good_bye" type="Action">
+    <entry>good bye</entry>
+    <entry>later</entry>
+  </class>
+  <class name="room" type="Key">
+    <entry>coffee</entry>
+    <entry>coffee machine{coffee}</entry>
+    <entry>coffee station{coffee}</entry>
+    <entry>Bob's office{bob}</entry>
+    <entry>Larry's office{larry}</entry>
+    <entry>elevator lobby{elevator}</entry>
+    <entry>water fountain{water}</entry>
+    <entry>Bob{bob}</entry>
+    <entry>Larry{larry}</entry>
+    <entry>elevator</entry>
+    <entry>water</entry>
+    <entry>larry</entry>
+    <entry>bob</entry>
+  </class>
+  <class name="take" type="Action">
+    <entry>Can you take me there</entry>
+    <entry>take me to coffee</entry>
+    <entry>take me to G destination=={eight zero four}</entry>
+    <entry>take me from G source=={eight thirty six} to G destination=={eight zero four}</entry>
+  </class>
+  <class name="where" type="Action">
+    <entry>where is [the] Larry's office</entry>
+    <entry>where is larry</entry>
+    <entry>where is G destination=={eight sixty six}</entry>
+  </class>
+  <class name="digit2" type="Key">
+    <entry>oh oh{00}</entry>
+    <entry>zero zero{00}</entry>
+    <entry>double zero{00}</entry>
+    <entry>oh one{01}</entry>
+    <entry>oh two{02}</entry>
+    <entry>oh three{03}</entry>
+    <entry>oh four{04}</entry>
+    <entry>oh five{05}</entry>
+    <entry>oh six{06}</entry>
+    <entry>oh seven{07}</entry>
+    <entry>oh eight{08}</entry>
+    <entry>oh nine{09}</entry>
+    <entry>zero one{01}</entry>
+    <entry>zero two{02}</entry>
+    <entry>zero three{03}</entry>
+    <entry>zero four{04}</entry>
+    <entry>zero five{05}</entry>
+    <entry>zero six{06}</entry>
+    <entry>zero seven{07}</entry>
+    <entry>zero eight{08}</entry>
+    <entry>zero nine{09}</entry>
+    <entry>ten{10}</entry>
+    <entry>one zero{10}</entry>
+    <entry>one oh{10}</entry>
+    <entry>eleven{11}</entry>
+    <entry>twelve{12}</entry>
+    <entry>thirteen{13}</entry>
+    <entry>fourteen{14}</entry>
+    <entry>fifteen{15}</entry>
+    <entry>sixteen{16}</entry>
+    <entry>seventeen{17}</entry>
+    <entry>eighteen{18}</entry>
+    <entry>nineteen{19}</entry>
+    <entry>twenty{20}</entry>
+    <entry>one one{11}</entry>
+    <entry>double one{11}</entry>
+    <entry>one two{12}</entry>
+    <entry>one three{13}</entry>
+    <entry>one four{14}</entry>
+    <entry>one five{15}</entry>
+    <entry>one six{16}</entry>
+    <entry>one seven{17}</entry>
+    <entry>one eight{18}</entry>
+    <entry>one nine{19}</entry>
+    <entry>twenty one{21}</entry>
+    <entry>twenty two{22}</entry>
+    <entry>twenty three{23}</entry>
+    <entry>twenty four{24}</entry>
+    <entry>twenty five{25}</entry>
+    <entry>twenty six{26}</entry>
+    <entry>twenty seven{27}</entry>
+    <entry>twenty eight{28}</entry>
+    <entry>twenty nine{29}</entry>
+    <entry>thirty{30}</entry>
+    <entry>double two{22}</entry>
+    <entry>thirty one{31}</entry>
+    <entry>thirty two{32}</entry>
+    <entry>thirty three{33}</entry>
+    <entry>thirty four{34}</entry>
+    <entry>thirty five{35}</entry>
+    <entry>thirty six{36}</entry>
+    <entry>thirty seven{37}</entry>
+    <entry>thirty eight{38}</entry>
+    <entry>thirty nine{39}</entry>
+    <entry>forty{40}</entry>
+    <entry>double three{33}</entry>
+    <entry>forty one{41}</entry>
+    <entry>forty two{42}</entry>
+    <entry>forty three{43}</entry>
+    <entry>forty four{44}</entry>
+    <entry>forty five{45}</entry>
+    <entry>forty six{46}</entry>
+    <entry>forty seven{47}</entry>
+    <entry>forty eight{48}</entry>
+    <entry>forty nine{49}</entry>
+    <entry>fifty{50}</entry>
+    <entry>double four{44}</entry>
+    <entry>fifty one{51}</entry>
+    <entry>fifty two{52}</entry>
+    <entry>fifty three{53}</entry>
+    <entry>fifty four{54}</entry>
+    <entry>fifty five{55}</entry>
+    <entry>fifty six{56}</entry>
+    <entry>fifty seven{57}</entry>
+    <entry>fifty eight{58}</entry>
+    <entry>fifty nine{59}</entry>
+    <entry>sixty{60}</entry>
+    <entry>double five{55}</entry>
+    <entry>sixty one{61}</entry>
+    <entry>sixty two{62}</entry>
+    <entry>sixty three{63}</entry>
+    <entry>sixty four{64}</entry>
+    <entry>sixty five{65}</entry>
+    <entry>sixty six{66}</entry>
+    <entry>sixty seven{67}</entry>
+    <entry>sixty eight{68}</entry>
+    <entry>sixty nine{69}</entry>
+    <entry>seventy{70}</entry>
+    <entry>double six{66}</entry>
+    <entry>seventy one{71}</entry>
+    <entry>seventy two{72}</entry>
+    <entry>seventy three{73}</entry>
+    <entry>seventy four{74}</entry>
+    <entry>seventy five{75}</entry>
+    <entry>seventy six{76}</entry>
+    <entry>seventy seven{77}</entry>
+    <entry>seventy eight{78}</entry>
+    <entry>seventy nine{79}</entry>
+    <entry>eighty{80}</entry>
+    <entry>double seven{77}</entry>
+    <entry>eighty one{81}</entry>
+    <entry>eighty two{82}</entry>
+    <entry>eighty three{83}</entry>
+    <entry>eighty four{84}</entry>
+    <entry>eighty five{85}</entry>
+    <entry>eighty six{86}</entry>
+    <entry>eighty seven{87}</entry>
+    <entry>eighty eight{88}</entry>
+    <entry>eighty nine{89}</entry>
+    <entry>ninety{90}</entry>
+    <entry>double eight{88}</entry>
+    <entry>ninety one{91}</entry>
+    <entry>ninety two{92}</entry>
+    <entry>ninetythree{93}</entry>
+    <entry>ninety four{94}</entry>
+    <entry>ninety five{95}</entry>
+    <entry>ninety six{96}</entry>
+    <entry>ninety seven{97}</entry>
+    <entry>ninety eight{98}</entry>
+    <entry>ninety nine{99}</entry>
+    <entry>double nine{99}</entry>
+  </class>
+  <class name="load" type="Action">
+    <entry>load map eight [G]</entry>
+  </class>
+  <class name="prefix" type="Key">
+    <entry>G</entry>
+    <entry>D</entry>
+  </class>
+  <property URL="relay:fanghui" language="English" SerialBuild="0" SerialMod="1" />
+</opt>

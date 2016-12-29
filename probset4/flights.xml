@@ -1,0 +1,174 @@
+<?xml version="1.0"?>
+<speechbuilder version="1.0" domain="flights">
+
+<property SerialBuild="571" SerialMod="571" URL="http://speech.lcs.mit.edu/cgi-bin/flights.cgi" />
+
+<class name="city" type="Key">
+  <entry>boston {BOS}</entry>
+  <entry>new york {NYC}</entry>
+  <entry>san francisco {SFO}</entry>
+</class>
+
+<class name="day" type="Key">
+  <entry>eight | eighth {8}</entry>
+  <entry>eighteen | eighteenth {18}</entry>
+  <entry>eleven | eleventh {11}</entry>
+  <entry>fifteen | fifteenth {15}</entry>
+  <entry>five | fifth {5}</entry>
+  <entry>four | fourth {4}</entry>
+  <entry>fourteen | fourteenth {14}</entry>
+  <entry>nine | ninth {9}</entry>
+  <entry>nineteen | nineteenth {19}</entry>
+  <entry>one | first {1}</entry>
+  <entry>seven | seventh {7}</entry>
+  <entry>seventeen | seventeenth {17}</entry>
+  <entry>six | sixth {6}</entry>
+  <entry>sixteen | sixteenth {16}</entry>
+  <entry>ten | tenth {10}</entry>
+  <entry>thirteen | thirteenth {13}</entry>
+  <entry>thirty (one | first) {31}</entry>
+  <entry>thirty eight {38}</entry>
+  <entry>thirty five {35}</entry>
+  <entry>thirty four {34}</entry>
+  <entry>thirty nine {39}</entry>
+  <entry>thirty seven {37}</entry>
+  <entry>thirty six {36}</entry>
+  <entry>thirty three {33}</entry>
+  <entry>thirty two {32}</entry>
+  <entry>thirty | thirtieth {30}</entry>
+  <entry>three | third {3}</entry>
+  <entry>twelve | twelfth {12}</entry>
+  <entry>twenty (eight | eighth) {28}</entry>
+  <entry>twenty (five | fifth) {25}</entry>
+  <entry>twenty (four | fourth) {24}</entry>
+  <entry>twenty (nine | ninth) {29}</entry>
+  <entry>twenty (one | first) {21}</entry>
+  <entry>twenty (seven | seventh) {27}</entry>
+  <entry>twenty (six | sixth) {26}</entry>
+  <entry>twenty (three | third) {23}</entry>
+  <entry>twenty (two | second) {22}</entry>
+  <entry>twenty | twentieth {20}</entry>
+  <entry>two | second {2}</entry>
+</class>
+
+<class name="goodbye" type="Action">
+  <entry>good bye</entry>
+</class>
+
+<class name="hour" type="Key">
+  <entry>eight {8}</entry>
+  <entry>eleven {11}</entry>
+  <entry>five {5}</entry>
+  <entry>four {4}</entry>
+  <entry>nine {9}</entry>
+  <entry>one {1}</entry>
+  <entry>seven {7}</entry>
+  <entry>six {6}</entry>
+  <entry>ten {10}</entry>
+  <entry>three {3}</entry>
+  <entry>twelve {12}</entry>
+  <entry>two {2}</entry>
+</class>
+
+<class name="list" type="Action">
+  <entry>(what is | tell me) the next flight source=(from boston) destination=(to new york)</entry>
+  <entry>are there any flights arrival_time==(arriving after time==(eleven oh two [a m]))</entry>
+  <entry>are there any flights departure_time==(leaving before time==(ten [o'clock] [a m]))</entry>
+  <entry>how about departure_time==(on monday)</entry>
+  <entry>i (would like | want | need) to fly origin=(from boston) destination=(to san francisco) departure_time==(on wednesday morning)</entry>
+  <entry>i need to fly from new york</entry>
+  <entry>tell me the flights going origin=(from new york) destination=(to san francisco) departure_time==(on tuesday)</entry>
+  <entry>what flights departure_time==(leave around time==(three p m))</entry>
+  <entry>what is the next flight destination=(into boston)</entry>
+</class>
+
+<class name="minute" type="Key">
+  <entry>eighteen {18}</entry>
+  <entry>eleven {11}</entry>
+  <entry>fifteen {15}</entry>
+  <entry>fifty eight {58}</entry>
+  <entry>fifty five {55}</entry>
+  <entry>fifty four {54}</entry>
+  <entry>fifty nine {59}</entry>
+  <entry>fifty one {51}</entry>
+  <entry>fifty seven {57}</entry>
+  <entry>fifty six {56}</entry>
+  <entry>fifty three {53}</entry>
+  <entry>fifty two {52}</entry>
+  <entry>fifty {50}</entry>
+  <entry>forty eight {48}</entry>
+  <entry>forty five {45}</entry>
+  <entry>forty four {44}</entry>
+  <entry>forty nine {49}</entry>
+  <entry>forty one {41}</entry>
+  <entry>forty seven {47}</entry>
+  <entry>forty six {46}</entry>
+  <entry>forty three {43}</entry>
+  <entry>forty two {42}</entry>
+  <entry>forty {40}</entry>
+  <entry>fourteen {14}</entry>
+  <entry>nineteen {19}</entry>
+  <entry>oh eight {08}</entry>
+  <entry>oh five {05}</entry>
+  <entry>oh four {04}</entry>
+  <entry>oh nine {09}</entry>
+  <entry>oh one {01}</entry>
+  <entry>oh seven {07}</entry>
+  <entry>oh six {06}</entry>
+  <entry>oh three {03}</entry>
+  <entry>oh two {02}</entry>
+  <entry>seventeen {17}</entry>
+  <entry>sixteen {16}</entry>
+  <entry>ten {10}</entry>
+  <entry>thirteen {13}</entry>
+  <entry>thirty eight {38}</entry>
+  <entry>thirty five {35}</entry>
+  <entry>thirty four {34}</entry>
+  <entry>thirty nine {39}</entry>
+  <entry>thirty one {31}</entry>
+  <entry>thirty seven {37}</entry>
+  <entry>thirty six {36}</entry>
+  <entry>thirty three {33}</entry>
+  <entry>thirty two {32}</entry>
+  <entry>thirty {30}</entry>
+  <entry>twelve {12}</entry>
+  <entry>twenty eight {28}</entry>
+  <entry>twenty five {25}</entry>
+  <entry>twenty four {24}</entry>
+  <entry>twenty nine {29}</entry>
+  <entry>twenty one {21}</entry>
+  <entry>twenty seven {27}</entry>
+  <entry>twenty six {26}</entry>
+  <entry>twenty three {23}</entry>
+  <entry>twenty two {22}</entry>
+  <entry>twenty {20}</entry>
+</class>
+
+<class name="relative" type="Key">
+  <entry>after</entry>
+  <entry>around</entry>
+  <entry>before</entry>
+</class>
+
+<class name="time_of_day" type="Key">
+  <entry>afternoon</entry>
+  <entry>evening</entry>
+  <entry>morning</entry>
+</class>
+
+<class name="weekday" type="Key">
+  <entry>friday</entry>
+  <entry>monday</entry>
+  <entry>saturday</entry>
+  <entry>sunday</entry>
+  <entry>thursday</entry>
+  <entry>tuesday</entry>
+  <entry>wednesday</entry>
+</class>
+
+<class name="xm" type="Key">
+  <entry>a m {AM}</entry>
+  <entry>p m {PM}</entry>
+</class>
+
+</speechbuilder>

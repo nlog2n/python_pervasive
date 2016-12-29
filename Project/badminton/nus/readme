@@ -1,0 +1,25 @@
+Setup procedure:
+
+(1) Two sides game. Each side needs a computer, two ipaqs (ipaq 0 and ipaq 1) and three crickets (two listeners one beacon)
+
+(2) Modify configure.py:
+
+	Set network_side to "MIT" or "NUS"
+
+	Set host_game_engine to MIT side computer's IP address
+
+	Set localhost to local computer's IP address
+
+	Set scale according to the court size
+
+(3) Run gameEngine.py (MIT side only), queryLocator.py, masterLocator.py, gui.py on the same machine 
+
+(4) Copy UpdateLocatorX.py, cricketLocator.py, configure.py to ipaq X, X = 0/1
+
+run start-cricketd on both ipaqs.
+
+python updateLocatorX on ipaq X
+
+(5) Ignore now: Setup galaxy server. Change speechDaemon's galaxy server configuration
+
+copy speechDaemon.py to ipaq 0 and start it (including galaudio).

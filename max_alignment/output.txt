@@ -1,0 +1,24 @@
+findmspoutputsample:
+
+Match score: 7
+Match length: 7
+Position in query: 13
+Position in database: 442
+GCATGGG
+|||||||
+GCATGGG
+
+
+motiffinderoutputsample:
+
+20 TACTAAT 784.0 0.97
+319 AATTAAC 690.0 0.95
+373 AACTAAT 666.0 0.95
+758 TACTAAC 1090.0 1.00
+1178 TTTTAAC 637.0 0.95
+1429 TATTAAC 808.0 0.97
+1435 CATTAAC 675.0 0.95
+1499 AACTAAT 666.0 0.95
+1796 TTTTAAC 637.0 0.95
+
+

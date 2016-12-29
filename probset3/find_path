@@ -1,0 +1,10 @@
+#!/bin/bash
+
+if (( $# < 1 )) ; then
+    echo "usage: find_path floor"
+    echo "valid floors are 2, 3, {4,5,6,7,8,9}G, {4,5}D"
+    exit 1
+fi
+
+python path_finder.py ../maps/$1.png ../graphs/$1.graph
+
